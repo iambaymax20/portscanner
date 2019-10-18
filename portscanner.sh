@@ -9,7 +9,7 @@ stopport=$3
 #ping a device to see if it is up
 function pingcheck
 {
-ping=`timeout 5 ping -c 1 $host | grep bytes | wc -l` #timeout set to 5sec
+ping=`timeout 5 ping -c 1 $host | grep bytes | wc -l` #timeout set to 5s
 if [ "$ping" -gt 1 ];then
   echo "$host is up";
 else
