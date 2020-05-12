@@ -20,7 +20,7 @@ git clone "https://github.com/iambaymax20/portscanner"
 cd portscanner/
 ```
 
-* Change the file permission to ececutable
+* Change the file permission to excecutable
 ```bash
 chmod +x portscanner.sh
 ```
