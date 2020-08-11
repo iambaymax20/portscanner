@@ -15,16 +15,16 @@ git clone "https://github.com/iambaymax20/portscanner"
 
 ## Run
 
-* Navigate to the folder
+* Navigate to the folder.
 ```bash
 cd portscanner/
 ```
 
-* Change the file permission to excecutable
+* Change the file permission to excecutable.
 ```bash
 chmod +x portscanner.sh
 ```
-* Run the file
+* Run the file.
 ```bash
 ./portscanner.sh
 ```
